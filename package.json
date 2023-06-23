@@ -31,7 +31,7 @@
     "async": "^3.2.4",
     "lodash": "^4.17.21",
     "waterline-criteria": "https://github.com/carlosgalveias/waterline-criteria.git#v1.0.2",
-    "waterline-cursor": "https://github.com/carlosgalveias/waterline-cursor.git#v0.0.8",
+    "waterline-cursor": "0.0.6",
     "waterline-errors": "0.10.1"
   },
   "devDependencies": {
@@ -50,9 +50,5 @@
       "unique",
       "autoIncrement.sequential"
     ]
-  },
-  "overrides": {
-    "underscore": "1.12.1",
-    "lodash": "^4.17.21"
   }
 }

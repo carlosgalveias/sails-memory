@@ -1,6 +1,6 @@
 {
   "name": "sails-memory",
-  "version": "0.10.7",
+  "version": "0.11.0",
   "description": "Non-persistent in-memory adapter for Sails.js / Waterline",
   "main": "lib/adapter.js",
   "scripts": {
@@ -28,16 +28,15 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "lodash": "3.10.1",
-    "waterline-criteria": "1.0.1",
-    "waterline-errors": "0.10.1",
-    "async": "1.5.2",
-    "waterline-cursor": "0.0.6"
+    "async": "^3.2.4",
+    "lodash": "^4.17.21",
+    "waterline-criteria": "https://github.com/carlosgalveias/waterline-criteria.git#v1.0.2",
+    "waterline-cursor": "0.0.6",
+    "waterline-errors": "0.10.1"
   },
   "devDependencies": {
-    "mocha": "2.5.3",
-    "waterline-adapter-tests": "~0.12.0",
-    "captains-log": "0.11.11"
+    "captains-log": "^2.0.3",
+    "mocha": "^10.2.0"
   },
   "waterlineAdapter": {
     "waterlineVersion": "~0.10.0",
@@ -51,5 +50,9 @@
       "unique",
       "autoIncrement.sequential"
     ]
+  },
+  "overrides": {
+    "underscore": "1.12.1",
+    "lodash": "^4.17.21"
   }
 }
